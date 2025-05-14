@@ -106,3 +106,4 @@ Summarize content from an uploaded file.
 
 ---
 
+https://ai.google.dev/gemini-api/docs/api-key    Get your API key from
