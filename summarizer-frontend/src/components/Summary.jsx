@@ -94,7 +94,7 @@ export default function Summary() {
 
       {inputMethod === "text" ? (
         <div className="text-input">
-          <h2>Enter Text to Summarize...</h2>
+          <h2>Enter Text to Summarize</h2>
           <textarea
             value={text}
             placeholder="Type or paste your text here..."
@@ -162,7 +162,7 @@ export default function Summary() {
           </p>
           <p className="mt-1">
             © {new Date().getFullYear()} AI Text Processing Solutions. All
-            rights reserved.
+            rights reserved. 2025
           </p>
         </div>
       </footer>
