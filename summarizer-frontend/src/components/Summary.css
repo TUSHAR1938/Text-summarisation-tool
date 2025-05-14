@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Theme Root */
+  .dark-theme body {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  .dark-theme h1,
+  .dark-theme h2 {
+    color: #f5f5f5;
+  }
+  
+  /* Input Method */
+  .input-method {
+    margin-bottom: 20px;
+  }
+  
+  .input-method label {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  /* Textarea */
+  .text-input textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+    font-size: 15px;
+    background-color: white;
+    color: #333;
+  }
+  
+  .dark-theme .text-input textarea {
+    background-color: #1e1e1e;
+    color: #eee;
+    border: 1px solid #444;
+  }
+  
+  /* File Input */
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  /* Dropdown */
+  .model-select {
+    margin-bottom: 20px;
+  }
+  
+  .model-select select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 15px;
+  }
+  
+  .dark-theme .model-select select {
+    background-color: #1e1e1e;
+    color: #eee;
+    border: 1px solid #444;
+  }
+  
+  /* Button */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.25s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .dark-theme button {
+    background-color: #0056b3;
+  }
+  
+  .dark-theme button:hover {
+    background-color: #007bff;
+  }
+  
+  /* Error */
+  .error {
+    color: #e74c3c;
+    margin: 20px 0;
+    padding: 12px;
+    background-color: #fadbd8;
+    border-radius: 6px;
+  }
+  
+  .dark-theme .error {
+    background-color: #622222;
+    color: #ffb4b4;
+  }
+  
+  /* Results Section */
+  .results {
+    margin-top: 30px;
+  }
+  
+  .result-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+  }
+  
+  .result-section h2 {
+    margin-top: 0;
+  }
+  
+  .dark-theme .result-section {
+    background-color: #1e1e1e;
+    border-left-color: #007bff;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #7f8c8d;
+  }
+  
+  .dark-theme footer {
+    color: #aaaaaa;
+  }
+
+  
